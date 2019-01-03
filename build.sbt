@@ -33,7 +33,7 @@ lazy val tinyTypesCoreTests = Project(
 )
 
 lazy val commonSettings = Seq(
-  organization := "org.amdgsolutions",
+  organization := "org.amdg",
   version      := "0.0.1-SNAPSHOT",
   scalaVersion := "2.12.8",
 
