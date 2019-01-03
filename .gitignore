@@ -19,3 +19,5 @@ project/plugins/project/
 *.class
 *.log
 
+### Idea ###
+.idea/
