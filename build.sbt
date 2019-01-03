@@ -27,7 +27,7 @@ lazy val tinyTypesCoreTests = Project(
 ).settings(
   commonSettings
 ).dependsOn(
-  tinyTypesCore
+  tinyTypesCore % "compile->compile;test->test"
 ).enablePlugins(
   AutomateHeaderPlugin
 )
